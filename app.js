@@ -27,7 +27,7 @@ app.post("/",function(req,res){
       ]
   };
   const jsonData=JSON.stringify(data);
-  const url= 'https://us6.api.mailchimp.com/3.0/lists/5eed4b554';
+  const url= 'https://us6.api.mailchimp.com/3.0/lists/5eed4b5543';
   const options={
       method:"POST",
       auth: "Abhishek:3aea1a42c6bde351831ab82957327bce-us6"
