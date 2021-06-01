@@ -27,10 +27,10 @@ app.post("/",function(req,res){
       ]
   };
   const jsonData=JSON.stringify(data);
-  const url= 'https://us6.api.mailchimp.com/3.0/lists/5eed4b5543';
+  const url= 'https://us6.api.mailchimp.com/3.0/lists/user-id';
   const options={
       method:"POST",
-      auth: "Abhishek:3aea1a42c6bde351831ab82957327bce-us6"
+      auth: "Abhishek:key"
   }
    const request= https.request(url,options,function(response){
        if(response.statusCode===200){
